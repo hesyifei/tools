@@ -1,0 +1,66 @@
+.mg {
+	font-size: 12px;
+	border: solid 2px #666;
+	position: relative;
+	font-size: 11px;
+}
+.mg .grid {
+	background: #f5f5f5;
+	border: solid 1px #666;
+	position: absolute;
+	overflow: hidden;
+}
+.mg .mg_finish {
+	background: #f5f5f5 url(img/flag_red.gif) no-repeat center center;
+}
+.mg .me {
+	position: absolute;
+	top: 0;
+	left: 0;
+	/*_margin-top: -38px;
+	_margin-left: -38px;*/
+	z-index: 10;
+}
+.mg .me .inform {
+	position: absolute;
+	/*top: -25px;*/
+	bottom: 20px;
+	padding-bottom: 4px;
+	left: -5px;
+	background: transparent url(img/sInform_arrow.gif) no-repeat 11px 100%;
+	display: none;
+	opacity: 0.75;
+	filter: alpha(opacity=75);
+	width: 160px;
+	font-size: 12px;
+}
+.mg .me .inform p {
+	background: #000;
+	color: #fff;
+	padding: 3px 5px;
+	margin: 0;
+	float: left;
+}
+.mg .me img {
+	border: 0;
+	width: 80%;
+	height: 80%;
+	margin: 10%;
+}
+#mg_set {
+	margin: 0 10px 20px 10px;
+}
+#mg_set p {
+	margin: 0 0 20px 0;
+	padding: 0 0 0 2em;
+}
+.info {
+	padding: 10px;
+	font-size: 14px;
+}
+.info p {
+	margin: 0;
+	padding: 0;
+	font-size: 12px;
+	color: gray;
+}

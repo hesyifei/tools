@@ -1,0 +1,13 @@
+body{
+	background-color: black;
+	color: white;
+	text-align: center;
+}
+textarea {
+	font-family: Courier !important;
+	font-size: 12px;
+	font-weight: normal;
+	color: white;
+	background-color: transparent;
+	resize: none;
+}

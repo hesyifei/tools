@@ -1,0 +1,160 @@
+/**
+ * 开源代码, 有兴趣的可以在保留声明的前提下免费使用.
+ *********** 声明开始 ***********
+ * @author ideawu@163.com
+ * @link http://www.ideawu.net
+ *********** 声明结束 ***********
+ *
+ */
+
+p{
+	margin: 10px 0;
+	padding: 0;
+}
+
+pre{
+	padding: 4px;
+	border: 1px solid #99c;
+	background: #eee;
+}
+
+.textbox{
+	padding: 1px;
+	border: 1px solid #bbb;
+}
+
+.datagrid_meta input{
+	border: 1px solid #ccc;
+}
+
+.title2{
+	margin: 12px 0;
+	padding: 0 6px;
+	font-size: 15px;
+	border-left: 5px solid #333;
+}
+
+.title3{
+	margin: 8px 0;
+	padding: 0;
+	font-size: 13px;
+}
+#footer{
+	clear: both;
+	padding: 6px;
+	margin-top: 20px;
+	text-align: center;
+}
+table{
+	margin: 12px auto;
+	border-collapse: collapse;
+	width: 95%;
+	background: #fff;
+}
+
+th, td{
+	border: 2px solid #333;
+}
+
+label{
+	margin: 6px 0;
+	font-size: 14px;
+	font-weight: bold;
+	display: block;
+}
+
+input[type=text]{
+	width: 600px;
+}
+input{
+	width: expression(this.type=="text"?"600px":"auto");
+}   
+textarea{
+	width: 600px;
+}
+
+#main{
+	color: #000;
+	margin: 0 auto;
+	padding-top: 40px;;
+	width: 980px;
+}
+
+#event_title{
+	color: #ff0;
+	margin: 26px;
+	padding: 0;
+	font-size: 56px;
+	text-align: center;
+}
+#event_title span{
+	padding: 0 32px;
+	background: #03e;
+}
+
+#rolling_board{
+	color: #000;
+	line-height: 40px;
+	font-size: 40px;
+	font-weight: bold;
+	margin: 34px auto;
+	padding: 8px;
+	width: 640px;
+	text-align: center;
+	background: #ff3;
+	border: 6px solid #03f;
+}
+
+#current_step{
+	line-height: 42px;
+	font-size: 42px;
+	font-weight: bold;
+}
+
+#tabs{
+	padding: 0;
+}
+
+#tabs-1{
+	padding: 4px;
+	font-size: 14px;
+	text-align: center;
+	
+	height: 580px;
+}
+
+#tabs-2,
+#tabs-3,
+#tabs-4{
+	padding: 4px;
+	
+}
+
+#tabs-3 h3,
+#tabs-4 h3{
+	padding-left: 6px;
+	border-left: 6px solid #c00;
+}
+#tabs-4 h2{
+	text-align: center;
+}
+
+#rotate_div{
+	padding-top: 60px;
+	height: 400px;
+}
+
+#print_box{
+	margin-top: 30px;
+	font-weight: bold;
+	font-size: 28px;
+	width: 70%;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+#print_box span{
+	margin: 4px;
+	color: #fff;
+	background: #36f;
+}

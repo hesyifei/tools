@@ -1,0 +1,44 @@
+# Arefly's Tools (zh_TW)
+# Copyright (C) 2013 AREFLY
+# This file is distributed under the same license as the Arefly's Tools package.
+# AREFLY <EFLYJASON@GMAIL.COM>, 2013.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Arefly's Tools\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2007-09-16 14:55+0800\n"
+"PO-Revision-Date: 2013-12-17 19:15+0800\n"
+"Last-Translator: Arefly <eflyjason@gmail.com>\n"
+"Language-Team: Arefly <eflyjason@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_TW\n"
+"X-Generator: Poedit 1.6.2\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+
+msgid "Tools Made By %s"
+msgstr "本工具由「%s」製作"
+
+msgid "(C) Copyright %s"
+msgstr "(C) %s版權所有"
+
+msgid "Arefly's Tools"
+msgstr "Arefly小工具"
+
+msgid "About"
+msgstr "關於"
+
+msgid "About %s"
+msgstr "關於%s"
+
+msgid "Guest Book"
+msgstr "留言本"
+
+msgid "All Tools"
+msgstr "所有小工具"
+
+msgid "Back To %s"
+msgstr "返回%s"
