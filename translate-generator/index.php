@@ -12,7 +12,15 @@ foreach($var_name as $var => $default_var){
 	if(!empty($_POST[$var])){
 		${$var} = htmlspecialchars($_POST[$var]);
 	}else{
-		${$var} = htmlspecialchars($default_var);
+		if(isset($_POST['submit'])){
+			if(in_array($var, array("adj", "adv", "v", "n"))){
+				${$var} = htmlspecialchars($_POST[$var]);
+			}else{
+				${$var} = htmlspecialchars($default_var);
+			}
+		}else{
+			${$var} = htmlspecialchars($default_var);
+		}
 	}
 	if(${$var} == $default_var){
 		${$var.'_val'} = 'placeholder="'.${$var}.'"';
@@ -79,7 +87,7 @@ foreach($var_name as $var => $default_var){
 	</div>
 	<div class="form-group">
 		<div class="centerd">
-			<button type="submit" class="<?php echo get_btn(); ?>">生成</button>
+			<button type="submit" class="<?php echo get_btn(); ?>" name="submit" id="submit">生成</button>
 		</div>
 	</div>
 </form>
