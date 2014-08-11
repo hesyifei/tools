@@ -28,7 +28,7 @@ $footer = array(
 <?php extract($footer); ?>
 <?php
 if (empty($jquery)){
-	$jquery = "2.0.3";
+	$jquery = "2.1.1";
 }
 ?>
 <?php if($foot_only != 1){ ?>
@@ -36,6 +36,7 @@ if (empty($jquery)){
 <div id="footer">
 	<div class="container">
 		<p class="text-center text-muted credit">Copyright &copy; <?php echo copyright_year(2013); ?> <a href="<?php echo get_option("site_url"); ?>" title="<?php echo get_option("site_name"); ?>" target="_blank"><?php echo get_option("site_eng_name"); ?></a><?php if(isset($more_footer_copyright)){ ?> &amp; <?php echo $more_footer_copyright; ?><?php } ?> All rights reserved</p>
+		<p class="text-center text-muted credit">本站備案號：<a href="http://www.miibeian.gov.cn/" rel="external nofollow" title="備案查詢" target="_blank">沪ICP备14025677号</a></p>
 		<?php if (is_array($more_footer)){ ?>
 		<?php foreach ($more_footer as $footer_word){ ?>
 		<p class="text-center text-muted credit"><?php echo $footer_word; ?></p>
@@ -58,7 +59,7 @@ if(is_file("footer.php")){
 <!-- Placed at the end of the document so the pages load faster -->
 <?php if ($jquery != "disable"){ ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//ajax.googleapis.com/ajax/libs/jquery/<?php echo $jquery; ?>/jquery.min.js"></script>
+<script src="//libs.useso.com/js/jquery/<?php echo $jquery; ?>/jquery.min.js"></script>
 <?php } ?>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <?php if($no_bootstrap != 1){ ?>
@@ -74,7 +75,7 @@ if(is_file("footer.php")){
 <script src="<?php echo $script; ?>"></script>
 <?php } ?>
 
-<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');  ga('create', 'UA-38324036-1', 'arefly.com');  ga('send', 'pageview');</script>
+<script>  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)  })(window,document,'script','//www.arefly.com/analytics.js','ga');  ga('create', 'UA-38324036-1', 'arefly.com');  ga('send', 'pageview');</script>
 
 <script>
 $(window).load(function() {
