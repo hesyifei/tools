@@ -59,7 +59,7 @@ if(is_file("footer.php")){
 <!-- Placed at the end of the document so the pages load faster -->
 <?php if ($jquery != "disable"){ ?>
 <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-<script src="//libs.useso.com/js/jquery/<?php echo $jquery; ?>/jquery.min.js"></script>
+<script src="//apps.bdimg.com/libs/jquery/<?php echo $jquery; ?>/jquery.min.js"></script>
 <?php } ?>
 <!-- Include all compiled plugins (below), or include individual files as needed -->
 <?php if($no_bootstrap != 1){ ?>
