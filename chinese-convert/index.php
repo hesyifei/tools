@@ -34,7 +34,7 @@ $seo = array(
 	</div>
 	<div class="form-group">
 		<div class="col-sm-10 centerd">
-			<textarea class="form-control" name="S2" rows="10" cols="86"></textarea>
+			<textarea class="form-control" name="S2" rows="10" cols="86" readonly="readonly"></textarea>
 		</div>
 	</div>
 </form>
