@@ -1,1 +1,1 @@
-<script src="http://file.arefly.com/convert_to_difference_locate.js"></script>
+<script src="//file.arefly.com/convert_to_difference_locate.js"></script>
