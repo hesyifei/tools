@@ -102,8 +102,8 @@ if(is_file("head.php")){
 	include "head.php";
 }
 ?>
-<link rel="shortcut icon" href="http://file.arefly.com/favicon.ico" />
-<link rel="icon" href="http://file.arefly.com/favicon.ico" />
+<link rel="shortcut icon" href="//file.arefly.com/favicon.ico" />
+<link rel="icon" href="//file.arefly.com/favicon.ico" />
 <link href="<?php echo get_option("tools_url"); ?>/style.css" rel="stylesheet">
 <?php if($no_bootstrap != 1){ ?>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">

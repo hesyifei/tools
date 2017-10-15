@@ -33,6 +33,19 @@ if (empty($jquery)){
 ?>
 <?php if($foot_only != 1){ ?>
 </div>
+
+<div class="text-center">
+<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+<!-- 文章底部（580*90） -->
+<ins class="adsbygoogle"
+style="display:inline-block;width:580px;height:90px"
+data-ad-client="ca-pub-4890802000578360"
+data-ad-slot="6863330530"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+
 <div id="footer">
 	<div class="container">
 		<p class="text-center text-muted credit">Copyright &copy; <?php echo copyright_year(2013); ?> <a href="<?php echo get_option("site_url"); ?>" title="<?php echo get_option("site_name"); ?>" target="_blank"><?php echo get_option("site_eng_name"); ?></a><?php if(isset($more_footer_copyright)){ ?> &amp; <?php echo $more_footer_copyright; ?><?php } ?> All rights reserved</p>

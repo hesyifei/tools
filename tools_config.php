@@ -15,7 +15,7 @@ define("__INC__", __ROOT__."/includes");
 $folder_path = dirname(__FILE__);
 $tools_path = $_SERVER['DOCUMENT_ROOT'];
 $tools_url = str_replace($tools_path, "", $folder_path);
-$tools_url = "http://".$_SERVER['HTTP_HOST'].$tools_url;
+$tools_url = "//".$_SERVER['HTTP_HOST'].$tools_url;
 define("TOOLS_URL", $tools_url);
 
 function get_option($option){
