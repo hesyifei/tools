@@ -20,8 +20,8 @@ This function usually used by it own. It always go with get_header.
 		<div class="navbar-collapse collapse">
 			<ul class="nav navbar-nav">
 				<li class="active"><a href="#"><?php echo $title; ?></a></li>
-				<li><a href="http://www.arefly.com/about/" title="<?php echo sprintf(_('About %s'), get_option("site_name")); ?>" target="_blank"><?php echo _("About"); ?></a></li>
-				<li><a href="http://www.arefly.com/guest-book/" title="<?php echo _("Guest Book"); ?>" target="_blank"><?php echo _("Guest Book"); ?></a></li>
+				<li><a href="https://www.arefly.com/about/" title="<?php echo sprintf(_('About %s'), get_option("site_name")); ?>" target="_blank"><?php echo _("About"); ?></a></li>
+				<li><a href="https://www.arefly.com/guest-book/" title="<?php echo _("Guest Book"); ?>" target="_blank"><?php echo _("Guest Book"); ?></a></li>
 				<li><a href="<?php echo get_option("tools_url"); ?>" title="<?php echo _("All Tools"); ?>" target="_blank"><?php echo _("All Tools"); ?></a></li>
 			</ul>
 			<ul class="nav navbar-nav navbar-right">

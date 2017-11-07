@@ -6,7 +6,7 @@ define("SITE_NAME", "暢想資源");
 //主網站英文名稱
 define("SITE_ENG_NAME", "Arefly");
 //主網站地址
-define("SITE_URL", "http://www.arefly.com/");
+define("SITE_URL", "https://www.arefly.com/");
 
 /************************* PLEASE DO NOT CHANGE THE CODE BELOW ***************************/
 define("__ROOT__", dirname(__FILE__));
