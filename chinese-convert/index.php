@@ -17,14 +17,14 @@ $seo = array(
 	</div>
 	<div class="form-group text-center">
 		從：<select id="from" class="selectpicker" onchange="onchange_convert(this);">
-			<option value="cn" name="cn" selected="selected">內地（中國大陸）</option>
-			<option value="tw" name="tw">台灣（中華民國）</option>
-			<option value="hk" name="hk">港澳地區</option>
+			<option value="cn" name="cn" selected="selected">簡體中文</option>
+			<option value="tw" name="tw">繁體中文（台灣地區）</option>
+			<option value="hk" name="hk">繁體中文（港澳地區）</option>
 		</select>
 		到：<select id="to" class="selectpicker">
-			<option value="tw" name="tw" selected="selected">台灣（中華民國）</option>
-			<option value="cn" name="cn">內地（中國大陸）</option>
-			<option value="hk" name="hk">港澳地區</option>
+			<option value="tw" name="tw" selected="selected">繁體中文（台灣地區）</option>
+			<option value="cn" name="cn">簡體中文</option>
+			<option value="hk" name="hk">繁體中文（港澳地區）</option>
 		</select>
 		編碼：<select id="encode" class="selectpicker">
 			<option value="utf" name="utf" selected="selected">Unicode</option>
